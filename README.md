@@ -24,4 +24,4 @@ Will produce:
 
 Note that the classes <code>donetask</code>, <code>pendingtask</code> and <code>hashtag</code> were added to the corresponding elements.
 
-Check this demo out: (pending).
+Check this demo out: http://afcastano.github.io/markdown-todo-parser/demo/Index.html.
