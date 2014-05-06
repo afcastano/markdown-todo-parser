@@ -1,5 +1,5 @@
-markdown-todo-parser
-====================
+#Markdown TODO parser
+
 
 Markdown to Html parser using the [markdone](https://github.com/omarrr/markdone) definition.
 
@@ -24,4 +24,4 @@ Will produce:
 
 Note that the classes <code>donetask</code>, <code>pendingtask</code> and <code>hashtag</code> were added to the corresponding elements.
 
-Check this demo out: Check this demo out: http://afcastano.github.io/markdown-todo-parser/demo/Index.html.
+Check the demo: http://afcastano.github.io/markdown-todo-parser/demo/Index.html.
