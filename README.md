@@ -1,9 +1,8 @@
 #Markdown TODO parser
 
-
 Markdown to Html parser using the [markdone](https://github.com/omarrr/markdone) definition.
 
-The parser depends on [PageDown](https://code.google.com/p/pagedown/wiki/PageDown). It uses a hook to add the new elements defined in [markdone](https://github.com/omarrr/markdone) such as completed tasks, pending tasks and hashtags.
+Demo: http://afcastano.github.io/markdown-todo-parser/demo/Index.html.
 
 ## How to use it
 
@@ -22,6 +21,9 @@ Will produce:
 </ul>
 ```
 
-Note that the classes <code>donetask</code>, <code>pendingtask</code> and <code>hashtag</code> were added to the corresponding elements.
+## Dependencies
 
-Check the demo: http://afcastano.github.io/markdown-todo-parser/demo/Index.html.
+The parser depends on [PageDown](https://code.google.com/p/pagedown/wiki/PageDown). It uses a hook to add the new elements defined in [markdone](https://github.com/omarrr/markdone) such as completed tasks, pending tasks and hashtags.
+
+
+Note that the classes <code>donetask</code>, <code>pendingtask</code> and <code>hashtag</code> were added to the corresponding elements.
