@@ -12,13 +12,15 @@
   </style>
 </head>
 <body>
+<h2>Load a file or type something in Markdown TODO format and press refresh.</h2>
+(see format specification <a href="https://github.com/omarrr/markdone">here</a>)
 <input type="file" id="file-input" name="file-input" multiple />
 <hr/>
-
 <textarea id="textbox" rows="20" style="
     width: 100%;
-">Type something here</textarea> 
-<button id="refresh">Refresh</button>
+">-Completed task\n
++Pending task</textarea> 
+<button id="refresh">Parse</button>
 <hr/>
 
 <span id="result">
@@ -27,7 +29,7 @@
 <script type='text/javascript' src='lib/Markdown.Converter.js'></script>
 <script type='text/javascript' src='lib/jquery-1.7.1.js'></script>
 <script type='text/javascript' src='lib/filereader.js'></script>
-<script type='text/javascript' src='lib/markdown-todo.js'></script>
+<script type='text/javascript' src='../markdown-todo.js'></script>
 <script type='text/javascript' src='main.js'></script>
 </body>
 </html>
