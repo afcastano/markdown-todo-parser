@@ -12,13 +12,15 @@
   </style>
 </head>
 <body>
+<h2>Load a file or type something in Markdown TODO format and press refresh.</h2>
+(see format specification <a href="https://github.com/omarrr/markdone">here</a>)
 <input type="file" id="file-input" name="file-input" multiple />
 <hr/>
-
 <textarea id="textbox" rows="20" style="
     width: 100%;
-">Type something here</textarea> 
-<button id="refresh">Refresh</button>
+">-Completed task\n
++Pending task</textarea> 
+<button id="refresh">Parse</button>
 <hr/>
 
 <span id="result">
